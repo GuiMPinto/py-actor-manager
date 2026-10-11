@@ -44,8 +44,6 @@ class ActorManager:
             for row in rows
         ]
 
-
-
     def update(self, pk: int, new_first_name: str, new_last_name: str) -> None:
         query = (
             f"UPDATE {self.table_name} "
